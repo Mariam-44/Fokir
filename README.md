@@ -4,7 +4,7 @@
 
 ## 🌟 Live Demo
 
-[View Live Demo](melodious-rabanadas-451012.netlify.app) 
+[View Live Demo](https://melodious-rabanadas-451012.netlify.app/) 
 
 ## ✨ Key Features
 
