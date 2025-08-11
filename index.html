@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fokir</title>
+    <link rel="shourtcut icon" type="x-icon" href="./src/assets/imgs/happy.png">
+    <!-- ^ Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ^ Bootstrap sheet -->
+    <link rel="stylesheet" href="./src/CSS/bootstrap.min.css" />
+    <!-- ^ Fontawesome  -->
+    <link rel="stylesheet" href="./src/CSS/all.min.css" />
+    <!-- ^ iconfont  -->
+    <link rel="stylesheet" href="./src/CSS/icofont.min.css" />
+    <!-- ^ Animate.CSS lib -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- ^ style sheet  -->
+    <link rel="stylesheet" href="./src/CSS/style.css" />
+    <!-- ^ Media sheet  -->
+    <link rel="stylesheet" href="./src/CSS/media.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent" >
+
+    <!-- & Navbar -->
+    <div class="header" id="home">
+      <nav id="navbar" class="navbar navbar-expand-lg fixed-top " >
+        <div class="container">
+          <a class="navbar-brand" href="#">Fokir</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars fa-1x text-white"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- & Hero section -->
+    <div
+      class="hero-section d-flex justify-content-center align-items-center text-center"
+    >
+      <div class="header-content">
+        <h3 class="text-white">Hello i'm</h3>
+        <h1 class="text-uppercase">alex smith</h1>
+        <h4 class="text-white text-capitalize">
+          Professional Web <span id="typed-words"></span>
+        </h4>
+      </div>
+    </div>
+
+    <!-- & About section -->
+    <div class="about-section py-5 " id="about">
+      <div class="container p-md-0 p-lg-3">
+        <div class="d-flex flex-wrap py-5">
+          <div class="left-side col-md-6 col-md-6 col-lg-4 offset-lg-1 p-2">
+            <div class="square">
+              <div class="about-img rounded-2 overflow-hidden">
+                <img src="./src/assets/imgs/about-img.jpg" alt="" />
+                <div
+                  class="icons-layer d-flex justify-content-center align-items-center"
+                >
+                  <div class="icons text-white">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-github"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-content offset-lg-1 col-md-6 ps-3 ps-lg-0 pt-4 pt-md-0">
+            <div class="about-title">
+              <h2 class="text-uppercase">Hello,</h2>
+            </div>
+            <p class="pe-1 about-txt">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="about-info">
+              <div class="row col-lg-10">
+                <div class="col px-sm-2 p-md-0 px-lg-2">
+                  <p><span>Name:</span> Rdam smith</p>
+                  <p><span>Age:</span> 26 Year</p>
+                  <p><span>Freelance:</span> Available</p>
+                </div>
+                <div class="col p-0 px-lg-2">
+                  <p><span>Job Title:</span> UI/UX Designer</p>
+                  <p><span>Location:</span> United States, US</p>
+                  <p class="mail">
+                    <span>E-mail:</span>
+                    <a href="" class="text-decoration-none"
+                      >example@gmail.com</a
+                    >
+                  </p>
+                </div>
+              </div>
+              <div class="btns py-3">
+                <a href="">Download CV <i class="fa fa-download"></i></a>
+                <a href="">Hire Me <i class="fa fa-paper-plane"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- & services section -->
+    <div class="services-section pt-5" id="services">
+      <div class="container pt-5">
+        <div class="title">
+          <h2 class="pb-4">Our Services</h2>
+        </div>
+        <div class="row row-cols-lg-4 row-cols-md-2 gx-4 ">
+          <div class="py-lg-4 pb-5">
+            <div class="inner rounded-1 px-0 text-center py-5">
+            <img src="./src/assets/imgs/school-material (2).png" alt="">
+              <h3>UI/UX DESIGN</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+          <div class="py-lg-4 pb-5">
+            <div class="inner rounded-1 px-0 text-center py-5">
+              <img src="./src/assets/imgs/program (2).png" alt="">
+              <h3>APP DEVELOPMENT</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+          <div class="py-lg-4 pb-5">
+            <div class="inner rounded-1 px-0 text-center py-5">
+              <img src="./src/assets/imgs/dashboard (2).png" alt="">
+              <h3>PRODUCT DESIGN</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+          <div class="py-lg-4 pb-5">
+            <div class="inner rounded-1 px-0 text-center py-5">
+              <img src="./src/assets/imgs/settings (2).png" alt="">
+              <h3>UI/UX DESIGN</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Ratione adipisci mollitia quis necstatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- & Portfolio section -->
+    <div id="portfolio" class="portfolio-section py-5 overflow-hidden">
+      <div class="container">
+        <div class="title">
+          <h2 class="pb-4">Our Portfolio</h2>
+        </div>
+        <ul class="nav nav-pills mb-3 mx-auto" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active p-2"
+              id="pills-all-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#all"
+              type="button"
+              role="tab"
+              aria-controls="pills-home"
+              aria-selected="true"
+            >
+              <span>All</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link p-2"
+              id="pills-brand-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#Graphic"
+              type="button"
+              role="tab"
+              aria-controls="pills-profile"
+              aria-selected="false"
+            >
+              <span>Graphic</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link p-2"
+              id="pills-design-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#design"
+              type="button"
+              role="tab"
+              aria-controls="pills-contact"
+              aria-selected="false"
+            >
+              <span>Web Design</span>
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link p-2"
+              id="pills-graphic-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#Branding"
+              type="button"
+              role="tab"
+              aria-controls="pills-graphic"
+              aria-selected="false"
+            >
+              <span>Branding </span>
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content pb-5" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="all"
+            role="tabpanel"
+            aria-labelledby="pills-all-tab"
+            tabindex="0"
+          >
+            <div class="row row-cols-lg-3 row-cols-md-2 g-4">
+              <div class="portfolio-card overflow-hidden animate__animated">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/1.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-image position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card position-relative overflow-hidden">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/2.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-link position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card position-relative overflow-hidden">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/3.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-video position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="portfolio-card position-relative overflow-hidden animate__animated animate__slideInDown"
+              >
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/4.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-image position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card position-relative overflow-hidden">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/5.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-link position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="portfolio-card position-relative overflow-hidden animate__animated animate__fadeInTopLeft"
+              >
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/6.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-image position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="Graphic"
+            role="tabpanel"
+            aria-labelledby="pills-brand-tab"
+            tabindex="0"
+          >
+            <div class="row row-cols-lg-3 row-cols-md-2 g-4">
+              <div class="portfolio-card position-relative overflow-hidden">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/2.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-link position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card position-relative overflow-hidden">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/3.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-video position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="portfolio-card position-relative overflow-hidden animate__animated animate__slideInDown"
+              >
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/4.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-image position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card position-relative overflow-hidden">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/5.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-link position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="portfolio-card position-relative overflow-hidden animate__animated animate__fadeInTopLeft"
+              >
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/6.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-image position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="tab-pane fade"
+            id="design"
+            role="tabpanel"
+            aria-labelledby="pills-design-tab"
+            tabindex="0"
+          >
+            <div class="row row-cols-lg-3 row-cols-md-2 g-4">
+              <div class="portfolio-card overflow-hidden animate__animated">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/1.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-image position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="portfolio-card position-relative overflow-hidden "
+              >
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/4.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-image position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-card position-relative overflow-hidden">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/5.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-link position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="Branding"
+            role="tabpanel"
+            aria-labelledby="pills-graphic-tab"
+            tabindex="0"
+          >
+            <div class="row row-cols-lg-3 row-cols-md-2 g-4">
+              <div class="portfolio-card position-relative overflow-hidden">
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/2.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-link position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="portfolio-card position-relative overflow-hidden animate__animated animate__fadeInTopLeft"
+              >
+                <div class="position-relative">
+                  <img class="w-100" src="./src/assets/imgs/portfolio/6.jpg" />
+
+                  <div
+                    class="layer p-0 position-absolute top-0 bottom-0 end-0 start-0 bg-opacity-50 bg-black"
+                  >
+                    <i class="fa fa-file-image position-absolute"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- & counters section -->
+    <div class="counters-section py-5">
+      <div class="container py-5">
+        <div class="row row-cols-lg-4 gy-3">
+          <div
+            class="counter d-flex justify-content-center align-items-center flex-column"
+          >
+            <i class="fa fa-users"></i>
+            <h3 class="mt-3 mb-2">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="94"
+                class="purecounter"
+                >94</span
+              >
+            </h3>
+            <p>Team members</p>
+          </div>
+          <div
+            class="counter d-flex justify-content-center align-items-center flex-column"
+          >
+            <i class="fa-regular fa-file"></i>
+            <h3 class="mt-3 mb-2">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="161"
+                class="purecounter"
+                >161</span
+              >
+            </h3>
+            <p>Complete Projects</p>
+          </div>
+          <div
+            class="counter d-flex justify-content-center align-items-center flex-column"
+          >
+            <i class="fa fa-cloud-download"></i>
+            <h3 class="mt-3 mb-2">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="846"
+                class="purecounter"
+                >846</span
+              >
+            </h3>
+            <p>Files Downloaded</p>
+          </div>
+          <div
+            class="counter d-flex justify-content-center align-items-center flex-column"
+          >
+            <i class="fa fa-coffee"></i>
+            <h3 class="mt-3 mb-2">
+              <span
+                data-purecounter-start="0"
+                data-purecounter-end="564"
+                class="purecounter"
+                >564</span
+              >
+            </h3>
+            <p>Lines Of Code</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- & Feedback section -->
+    <div class="feedback-section py-5" id="testimonial">
+      <div class="container ">
+        <div class="title">
+          <h2 class="pb-4">Client's Feedback</h2>
+        </div>
+
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item col-md-8 offset-lg-2 active">
+              <div class="slide-card d-flex">
+                <div class="slide-img">
+                  <img
+                    class=" z-3"
+                    src="./src/assets/imgs/feedback.jpg"
+                    alt="Face of a man wearing glasses"
+                  />
+                </div>
+                <div class="slide-content ps-4 pe-4">
+                  <h3 class="fw-medium">Alex ander</h3>
+                  <h4>
+                    <a href="#"><i class="fa fa-map-marker"></i> United</a>
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Exercitationem ducimus ex magni sunt, architecto vel dolore,
+                    laudantium dignissimos debitis optio!
+                  </p>
+                  <div class="reating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item col-md-8 offset-lg-2">
+              <div class="slide-card d-flex">
+                <div class="slide-img">
+                  <img
+                    class="w-100 z-3"
+                    src="./src/assets/imgs/3.jpg"
+                    alt="Face of a man wearing glasses"
+                  />
+                </div>
+                <div class="slide-content ps-4 pe-4">
+                  <h3 class="fw-medium">Alex ander</h3>
+                  <h4>
+                    <a href="#"><i class="fa fa-map-marker"></i> United</a>
+                  </h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Exercitationem ducimus ex magni sunt, architecto vel dolore,
+                    laudantium dignissimos debitis optio!
+                  </p>
+                  <div class="reating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <div class="clear"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- & Blog section -->
+    <div class="blog-section py-5" id="blog">
+      <div class="container py-5">
+        <div class="title">
+          <h2 class="pb-4">Our Blog</h2>
+        </div>
+        <div class="row row-cols-lg-3 row-cols-md-2">
+          <div class="p-3">
+            <div class="blog-card bg-white p-0">
+              <div class="card-img">
+                <img class="w-100" src="./src/assets/imgs/img1.jpg" alt="" />
+              </div>
+              <div class="card-content p-4">
+                <div class="date pb-2">23 November, 2015</div>
+                <h3 class="fs-4 text-capitalize pb-1">web design Blog Post</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <div class="read-more">
+                  READ MORE <i class="fa fa-long-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="blog-card bg-white p-0">
+              <a href="">
+                <iframe
+                  src="https://www.youtube.com/embed/uVju5--RqtY"
+                  frameborder=""
+                  allowfullscreen
+                  class="w-100"
+                  style="height: 197px"
+                ></iframe>
+              </a>
+
+              <div class="card-content p-4">
+                <div class="date pb-2">20 April, 2018</div>
+                <h3 class="fs-4 text-capitalize pb-1">development Blog Post</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <div class="read-more">
+                  READ MORE <i class="fa fa-long-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="p-3">
+            <div class="blog-card bg-white p-0">
+              <div class="card-img">
+                <img class="w-100" src="./src/assets/imgs/img2.jpg" alt="" />
+              </div>
+              <div class="card-content p-4">
+                <div class="date pb-2">17 May, 2017</div>
+                <h3 class="fs-4 text-capitalize pb-1">Full Width Blog Post</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Consequuntur ea, quis magnam deserunt eius incidunt repellat
+                  molestiae.
+                </p>
+                <div class="read-more">
+                  READ MORE <i class="fa fa-long-arrow-right"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- & Contact Form -->
+    <div class="contact-section py-5" id="contact">
+      <div class="container py-5">
+        <div class="title">
+          <h2 class="pb-4">Contact Us</h2>
+        </div>
+        <form > <div class="row col-lg-offset-2 col-lg-8 m-auto">
+          <div class="col-lg-6 mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Name"
+            required
+          />
+          </div>
+          <div class="col-lg-6 mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Email"
+            required
+          />
+          </div><div class="mb-3">
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Subject"
+            required
+          />
+        </div>
+        <div class="mb-3">
+          <textarea
+            class="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            placeholder="Message for me"
+            required
+          ></textarea>
+        </div>
+        <div class="btns py-3">
+           <a href="" class="text-uppercase">Send Message</a>     
+         </div>
+        </div></form>
+       
+        
+      </div>
+    </div>
+
+    <!-- & Footer -->
+      <div class="footer py-5">
+      <div class="container">
+        <div class="copyright ">
+          <div class="icons py-2 ">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+          </div>
+          <div class="copyright_content">
+            <p>
+              Copy Right 2018 © By
+              <a href="">Theme-fair</a> All
+              Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- * counter -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+    <!-- * Typing animation -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- * Bootstrap bundle -->
+    <script src="./src/JS/bootstrap.bundle.min.js"></script>
+    <!-- * main js file -->
+    <script src="./src/JS/index.js"></script>
+  </body>
+</html>
